@@ -8,20 +8,17 @@
 We need to predict for each testing data whether the person was able to survive or not based on the model learnt from training data.
 
 ## VARIABLE DESCRIPTIONS
-survival        Survival
-                (0 = No; 1 = Yes)
-pclass          Passenger Class
-                (1 = 1st; 2 = 2nd; 3 = 3rd)
-name            Name
-sex             Sex
-age             Age
-sibsp           Number of Siblings/Spouses Aboard
-parch           Number of Parents/Children Aboard
-ticket          Ticket Number
-fare            Passenger Fare
-cabin           Cabin
-embarked        Port of Embarkation
-                (C = Cherbourg; Q = Queenstown; S = Southampton)
+1. survival        Survival (0 = No; 1 = Yes)
+2. pclass          Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
+3. name            Name
+4. sex             Sex
+5. age             Age
+6. sibsp           Number of Siblings/Spouses Aboard
+7. parch           Number of Parents/Children Aboard
+8. ticket          Ticket Number
+9. fare            Passenger Fare
+10. cabin           Cabin
+11. embarked        Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 ## SPECIAL NOTES
 1. Pclass is a proxy for socio-economic status (SES)
