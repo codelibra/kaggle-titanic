@@ -1,15 +1,16 @@
 # Kaggle titanic
 
-1. Trying out first [Kaggle](https://www.kaggle.com/) dataset exploration.
+Trying out first [Kaggle](https://www.kaggle.com/) dataset exploration.
+
 # References
 
-[feature engineering](http://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html) .
-[Blending](https://github.com/emanuele/kaggle_pbr/blob/master/blend.py)
-[Stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
-[Ensembling](http://mlwave.com/kaggle-ensembling-guide/)
-[Voting](https://www.kaggle.com/poonaml/titanic/titanic-survival-prediction-end-to-end-ml-pipeline)
-[Stacking/Ensembling guide](https://www.kaggle.com/shivendra91/titanic/introduction-to-ensembling-stacking-in-python/editnb)
-[Random Forest](https://www.kaggle.com/benhamner/titanic/random-forest-benchmark-r/code)
+* [feature engineering](http://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html) .
+* [Blending](https://github.com/emanuele/kaggle_pbr/blob/master/blend.py)
+* [Stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
+* [Ensembling](http://mlwave.com/kaggle-ensembling-guide/)
+* [Voting](https://www.kaggle.com/poonaml/titanic/titanic-survival-prediction-end-to-end-ml-pipeline)
+* [Stacking/Ensembling guide](https://www.kaggle.com/shivendra91/titanic/introduction-to-ensembling-stacking-in-python/editnb)
+* [Random Forest](https://www.kaggle.com/benhamner/titanic/random-forest-benchmark-r/code)
 Lot more of them....
 
 # Problem Overview  https://www.kaggle.com/c/titanic
