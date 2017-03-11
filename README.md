@@ -13,7 +13,7 @@ Trying out first [Kaggle](https://www.kaggle.com/) dataset exploration.
 * [Random Forest](https://www.kaggle.com/benhamner/titanic/random-forest-benchmark-r/code)
 Lot more of them....
 
-# Problem Overview  https://www.kaggle.com/c/titanic
+# Problem Overview
 We need to predict for each testing data whether the person was able to survive or not based on the model learnt from training data.
 
 ## VARIABLE DESCRIPTIONS
