@@ -20,6 +20,20 @@ def evaluate(data, targets, test):
     print('Best parameters: {}'.format(grid_search.best_params_))
     return grid_search.predict(test)
 
+def eval_model(model=eclf1):
+    skf = StratifiedKFold(targets, n_folds=10)
+    perf = 0
+    for train_index, test_index in skf:
+        X_train, X_test = train_new[train_index], train_new[test_index]
+        y_train, y_test = targets[train_index], targets[test_index]
+        eclf1.fit(X_train,y_train)
+        perf = perf + eclf1.score(X_test,y_test)
+        print eclf1.score(X_test,y_test)
+
+
+    print "Performance"
+    print perf/10
+
 def recover_train_test_target():
     global combined
     train0 = pd.read_csv(base_folder + '/train.csv')
@@ -31,5 +45,3 @@ train,test,targets = recover_train_test_target()
 
 
 predictions = evaluate(train_new , targets, test_new)
-
-predictions = evaluate(train._get_numeric_data() , targets, test._get_numeric_data())
